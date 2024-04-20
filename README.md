@@ -17,8 +17,9 @@ To use this library in your Rust project, simply add the following line to your 
 
 
 ## Example
-![Alt Text](prob.jpeg)
-![Alt Text](string.jpeg)
+![Alt Text](top.jpeg)
+![Alt Text](bottom.jpeg)
+![Alt Text](output.jpeg)
 
 ```toml
 [dependencies]
