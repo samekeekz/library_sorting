@@ -18,4 +18,8 @@ fn main() {
     let mut nums = vec![9,8,6,4,2,62,6];
     merge_sort(&mut nums, &|a, b| a.cmp(b));
     println!("Merge Sort: {:?}", nums);
+
+    let mut strings = vec!["banana", "apple", "cherry", "date", "elderberry"];
+    quick_sort(&mut strings, &|a, b| a.cmp(b));
+    println!("Quick Sort: {:?}", strings);
 }
